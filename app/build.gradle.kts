@@ -46,10 +46,14 @@ dependencies {
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    implementation(libs.androidx.activity)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     implementation(libs.chip.navigation.bar)
-    implementation(libs.glide)
-
+    implementation("com.github.bumptech.glide:glide:4.13.0")
+    // retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    // GSON
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
 }
