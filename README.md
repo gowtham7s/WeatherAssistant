@@ -16,3 +16,7 @@ Check the below project walkthrough :
 *************************************
 
 https://github.com/user-attachments/assets/487ac613-2fd4-465f-b905-00e332c755d6
+
+Note:
+****
+Kindly run the application with internet connection.
